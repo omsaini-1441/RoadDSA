@@ -1,3 +1,5 @@
+// You are given an array consisting of 'N' integers which denote the position of a stall. You are also given an integer 'K' which denotes the number of aggressive cows. You are given the task of assigning stalls to 'K' cows such that the minimum distance between any two of them is the maximum possible.
+
 bool isPossible(vector<int> &stalls, int k, int mid, int n) {
     
     int cowCount = 1;
