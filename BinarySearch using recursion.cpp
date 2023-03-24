@@ -40,4 +40,5 @@ int main() {
     cout << "Present or not " << binarySearch(arr, 0, size-1, key) << endl;
 
     return 0;
+    
 }
