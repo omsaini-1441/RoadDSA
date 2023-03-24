@@ -27,6 +27,5 @@ int main(){
 	int odd[5]={1,3,5,7,9};
 	 int index = BinarySearch(even,5,6);
 	 cout<<index;
-	
 	return 0;
 }
