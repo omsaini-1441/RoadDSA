@@ -1,12 +1,12 @@
 /*
 COUNTING PSUEDO SORT
-CountingSort(arr[], size, div) – take arr[size]
+CountingSort(arr[], size, div) â€“ take arr[size]
 
-create output array called – output[size]
+create output array called â€“ output[size]
 
 take a range (or no of unique elements. Default value 10 in our case)
 
-create count array called – count[range] & initialize all values to 0
+create count array called â€“ count[range] & initialize all values to 0
 
 for(int i=0 to i<range)
 
@@ -22,15 +22,15 @@ Modify count[] array to store previous counts (cumulative)
 
 for(int i = 1 to i < range)
 
-count[i] += count[i – 1];
+count[i] += count[i â€“ 1];
 
 Place elements from input array arr[] to output array output[] using this count[] array that has the actual positions of elements
 
 for(int i=0 to i<size)
 
-output[count[ (arr[i]/div)%10 ] – 1] = arr[i]
+output[count[ (arr[i]/div)%10 ] â€“ 1] = arr[i]
 
-count[ (arr[i]/div)%10 ]–
+count[ (arr[i]/div)%10 ]â€“
 
 Transfer sorted values from output[] array to input array arr[]
 
@@ -110,6 +110,7 @@ void radixSort(int *arr, int n, int max) {
 
 int main() {
 
+ 
    int n, max;
 
    cout << "Enter the number of elements: ";
