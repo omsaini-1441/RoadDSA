@@ -28,6 +28,7 @@ int main()
       arr[i]=-387584;
     }
   }
+    
   max=-234536;
   for(int i=0;i<5;i++)
   {
