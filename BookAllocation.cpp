@@ -14,7 +14,7 @@ bool isPossible(vector<int> arr, int n, int m, int mid) {
     
     for(int i = 0; i<n; i++) {
         if(pageSum + arr[i] <= mid) {
-            pageSum += arr[i];          // maintaining a sum of books one student gets
+            pageSum += arr[i];           // maintaining a sum of books one student gets
         }
         else
         {
