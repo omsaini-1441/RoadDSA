@@ -40,4 +40,5 @@ int aggressiveCows(vector<int> &stalls, int k)
         mid = s + (e-s)/2;
     }
     return ans;
+    
 }
