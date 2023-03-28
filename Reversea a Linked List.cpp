@@ -1,5 +1,4 @@
 // Link - https://leetcode.com/problems/reverse-linked-list/
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
